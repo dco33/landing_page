@@ -1,0 +1,126 @@
+
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+
+}
+
+.header{
+
+    width: 100%;
+    height: 100vp;
+
+}
+
+.container-bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./imag/BG_1.png");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin-top: 1px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62);: 0.9;
+    opacity: (0,0,9);
+    
+}
+
+.logo{
+    width: 230px;
+    padding: 60px;
+    cursor: pointer;
+    padding-right: 3%;
+    margin-left: 6.5%;
+}
+
+.nav-menu{ 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+    
+}
+
+.menu{ list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+}
+
+.li-item a {
+    align-items: center;
+    padding: 12px;
+    list-style: none;
+    font-size:1,6em;
+    text-decoration: none;
+    color: rgb(62, 64, 68) ;
+    
+}
+
+.btn-login { 
+    border width: 1px ;
+    padding: 12px;
+    border-radius: 10px;
+    color: rgb(62, 64, 68) ;
+    border: none;
+    background-color: rgb(74, 127, 226);
+       
+}
+
+.container-header {
+    height: 85vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+
+
+.container-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.container-info h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(63, 62, 62);
+
+}
+
+
+.btn-market{ 
+    height: 50px;
+    width: 180px;
+    background-color: rgb(74, 127, 226);
+    border-radius: 10px;
+    color: cornsilk;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.62); 
+}
